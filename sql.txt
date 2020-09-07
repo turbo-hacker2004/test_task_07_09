@@ -1,6 +1,0 @@
-1. SELECT `city_name`, `naselenie` FROM `gorod`  WHERE region_id = 1 ORDER BY `naselenie`;
-2. SELECT COUNT(*) as count FROM gorod WHERE `naselenie` is NULL;
-3. SELECT `city_name`, `naselenie` FROM gorod ORDER BY naselenie DESC LIMIT 1;
-4. DELETE FROM gorod WHERE `naselenie` < 400000;
-5. UPDATE gorod SET `naselenie` = 200000 WHERE `region_id` = 1;
-6. SELECT `city_name`, `naselenie` FROM `gorod`  WHERE city_name LIKE 'К%' ORDER BY `naselenie`
